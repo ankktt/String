@@ -1,18 +1,20 @@
-li1 = list('kod')
-print(li1)
+#iterable object  = list, tuples, set, string, range,
+
+li1 = list('kod')   
+print(li1) # ['k', 'o', 'd' ]
 
 li2 = list((10,20))
 print(li2) # [10, 20]
 
 li3 = list({100, 200})
-print(li3)
+print(li3) # [200, 100]
 
 li4 = list({100, 200})
-print(li4)
+print(li4) #
 
 li4 = list({'Name':'Priya', 'age' : 22})
 
-print(li4)
+print(li4) # ['name', 'age']
 
 li5 = list(range(1, 11)) 
 print(li5)
